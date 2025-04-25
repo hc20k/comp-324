@@ -1,0 +1,2 @@
+SHA2-256(block2.txt)= 7c728cd94736630651929ddd0ed4697e77c366b8b1669d3e9a3e77c8ae4f7bff
+Charlie sends 3 coins to bob

@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+from qiskit import QuantumCircuit, transpile
+from qiskit.visualization import plot_histogram
+from qiskit_aer import Aer
+
+qc = QuantumCircuit(2, 2)
+
+qc.h(0) # hadamard gate
+qc.cx(0, 1) # cnot gate
+
+qc.measure([0, 1], [0, 1])
+
+simulator = Aer.get_backend("qasm_simulator")
+compiled_circuit = transpile(qc, simulator)
+result = simulator.run(compiled_circuit, shots=1000).result()
+
+counts = result.get_counts(qc)
+print("Measurement counts:", counts)
+
+plot_histogram(counts)
+plt.savefig("quantum_entanglement.png")
+

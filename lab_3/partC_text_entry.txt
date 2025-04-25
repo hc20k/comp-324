@@ -1,0 +1,5 @@
+What is the response message (or the output) after running #6 command?
+	Verified OK
+
+After taking second screenshot, edit your yourfirstname.txt by using vi editor. Add today's date (i.e. 2/21/2024) and save the file and try the verification process again. What is the output from the command? Why does the command produce this specific output? Answer the question first and take a screenshot and submit all three screenshots to Canvas.
+	It gives me "verification failure". This is because the content of the file doesn't match the original content from which the signature was originally created from. If I regenerate the signature with the updated content, it would work. 

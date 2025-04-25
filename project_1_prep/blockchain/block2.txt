@@ -1,0 +1,2 @@
+SHA2-256(block1.txt)= 4ad9c94b957fa924a5bcb01d310ab613220160e4503aacf1de032677bcf23351
+Bob sends 5 coins to Alice

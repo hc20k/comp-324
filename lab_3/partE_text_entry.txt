@@ -1,0 +1,11 @@
+What is domain certificate and why do we need it? Please research it online and explain in simple English.
+	A domain certificate verifies the ownership of a specific website. Basically it makes sure that the website you're visiting isn't being hosted by an attacker that wants to steal information, so it's secure to enter secure information into.
+
+ What is X509? Please research it online and explain in simple English.
+	An X509 certificate is a digital document that verifies identities and communications over the internet. It prevents "man in the middle" attacks, so nobody else can read your sensitive data except for the intended recipient.
+
+Why do we need to set expiration dates for domain certificates? Please research it online and explain in simple English.
+	It's good to have an expiration date for a domain certificate just in case the encryption standard becomes obsolete, the ownership of the domain changes, or if the cert/private key gets leaked.
+
+You have created a self-signed domain certificate in this lab. What is the difference between a Domain certificate and Self-Signed Cert? Please research it online and explain in simple English.
+	For public websites, a domain certificate is good to ensure users can trust and safely use your site. For internal testing purposes, a self-signed cert is better because trust isn't much of a concern. Self-signed certs are also free, and domain certs cost money.

@@ -1,0 +1,8 @@
+How many primes can you find in your private key?
+	2 primes
+
+How many bits are used in your private key?
+	1024 bits
+
+Enter the value of public exponent.
+	65537
