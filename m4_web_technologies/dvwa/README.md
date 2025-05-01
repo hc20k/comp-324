@@ -1,4 +1,5 @@
 # M4 Completing DVWA Practice Sections
+Harrison Coutee - COMP 324 - March 25, 2025
 
 ## 1. SQL Injection
 

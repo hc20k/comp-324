@@ -1,4 +1,5 @@
 # Extra Credit Assignment: Installing and Exploring OWASP Juice Shop
+Harrison Coutee - COMP 324 - April 30, 2025
 
 ![owasp home](owasp.png)
 

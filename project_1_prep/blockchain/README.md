@@ -1,4 +1,5 @@
 # Implementing Blockchain Technology using OpenSSL
+Harrison Coutee - COMP 324 - March 25, 2025
 
 ## 1. Install OpenSSL
 
